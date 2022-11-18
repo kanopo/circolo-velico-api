@@ -1,0 +1,14 @@
+_id: env_30c71dc7ed184fdbb1587bf54e3caec4
+type: Environment
+parentId: env_299a99aca4e385d36c9a02f5215f30ad78c115a5
+modified: 1668781991677
+created: 1668781932178
+name: circolo velico
+data:
+  ip: 127.0.0.1
+dataPropertyOrder:
+  "&":
+    - ip
+color: null
+isPrivate: false
+metaSortKey: 1668781932178

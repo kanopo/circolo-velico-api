@@ -1,0 +1,29 @@
+_id: req_6308705829dc47dcbda0a0077f4378cd
+type: Request
+parentId: fld_22a954f55f684f0b91a579a6bd9ec472
+modified: 1668790218760
+created: 1668790139902
+url: http://{{ip}}:8080/boats/memberId/1
+name: create boat
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"length": 123.4,
+    		"name": "barca blu"	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668790139902
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

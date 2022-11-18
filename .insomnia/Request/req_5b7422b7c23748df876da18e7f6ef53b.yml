@@ -1,0 +1,31 @@
+_id: req_5b7422b7c23748df876da18e7f6ef53b
+type: Request
+parentId: fld_e506c6e7b14a4699af1b635115965e8b
+modified: 1668783013243
+created: 1668782798007
+url: http://{{ip}}:8080/annualFees/memberId/1
+name: add annual fee to member
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"end": "2022-11-18",
+    	"start": "2023-11-18",
+    	"price": 100.50
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ecc8368a7cbe4ed9bdf270819eff726a
+authentication: {}
+metaSortKey: -1668782798007
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,25 +1,26 @@
-_id: req_6308705829dc47dcbda0a0077f4378cd
+_id: req_6191133676ac433faf739104eec6d0cc
 type: Request
-parentId: fld_22a954f55f684f0b91a579a6bd9ec472
-modified: 1669138101636
-created: 1668790139902
-url: http://{{ip}}:8080/boats/memberId/1
-name: create boat
+parentId: fld_1a91bcc77d5843699445aa75273dc845
+modified: 1668953074996
+created: 1668953000811
+url: http://{{ip}}:8080/races
+name: races
 description: ""
-method: PUT
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    		"length": 123.4,
-    		"name": "MAMT"	
+    	"date": "2022-12-24",
+    	"price": 5.99,
+    	"award": 10.99
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1668790139902
+metaSortKey: -1668912327589.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

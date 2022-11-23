@@ -1,7 +1,7 @@
 _id: req_97a66d321c1b4b20acd8567f76b9be7d
 type: Request
 parentId: fld_ad8dedd19d5945f2bb9fa9264c2fab50
-modified: 1668790103843
+modified: 1669138536019
 created: 1668789988547
 url: http://{{ip}}:8080/members
 name: create member
@@ -14,9 +14,9 @@ body:
     		"name": "Dmitri",
     		"surname": "Ollari",
     		"address": "Via paolo toschi 11",
-    		"fiscalCode": "LLRDTR00C01Z140P",
-    		"username": "dmodmo",
-    		"password": "dmodmo"
+    		"fiscalCode": "asd",
+    		"username": "dmo",
+    		"password": "dmo"
     	}
 parameters: []
 headers:

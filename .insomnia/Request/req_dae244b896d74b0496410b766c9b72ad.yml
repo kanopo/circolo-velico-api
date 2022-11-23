@@ -1,17 +1,17 @@
-_id: req_0077194ffafa42ca93c9d009b22227fd
+_id: req_dae244b896d74b0496410b766c9b72ad
 type: Request
-parentId: fld_88b08ac6d16c4cf5a86f6b237da5041c
-modified: 1669020974123
-created: 1668783979255
-url: http://{{ip}}:8080/employee
-name: employees
+parentId: fld_2fde08a9ec734570ae7af81f14ad412b
+modified: 1669029388938
+created: 1669028567156
+url: http://{{ip}}:8080/parkingFees/memberId/3
+name: get parking fees by member id
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1668783979255
+metaSortKey: -1668870296753.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

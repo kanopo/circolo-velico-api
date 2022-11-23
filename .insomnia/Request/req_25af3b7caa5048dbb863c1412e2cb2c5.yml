@@ -1,17 +1,17 @@
-_id: req_0077194ffafa42ca93c9d009b22227fd
+_id: req_25af3b7caa5048dbb863c1412e2cb2c5
 type: Request
-parentId: fld_88b08ac6d16c4cf5a86f6b237da5041c
-modified: 1669020974123
-created: 1668783979255
-url: http://{{ip}}:8080/employee
-name: employees
+parentId: fld_22a954f55f684f0b91a579a6bd9ec472
+modified: 1669199325703
+created: 1669027521566
+url: http://{{ip}}:8080/boats/memberId/1
+name: boats member id
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1668783979255
+metaSortKey: -1668790053729
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

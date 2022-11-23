@@ -1,17 +1,25 @@
-_id: req_0077194ffafa42ca93c9d009b22227fd
+_id: req_bb06ad70c56148d2aeef064ada440bce
 type: Request
 parentId: fld_88b08ac6d16c4cf5a86f6b237da5041c
-modified: 1669020974123
-created: 1668783979255
+modified: 1669138314396
+created: 1668953128202
 url: http://{{ip}}:8080/employee
 name: employees
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "admin",
+    	"password": "admin"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
-metaSortKey: -1668783979255
+metaSortKey: -1668783519321
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

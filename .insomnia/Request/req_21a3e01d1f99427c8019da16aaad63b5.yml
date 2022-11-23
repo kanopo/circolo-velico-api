@@ -1,27 +1,26 @@
-_id: req_5b7422b7c23748df876da18e7f6ef53b
+_id: req_21a3e01d1f99427c8019da16aaad63b5
 type: Request
-parentId: fld_e506c6e7b14a4699af1b635115965e8b
-modified: 1669138608698
-created: 1668782798007
-url: http://{{ip}}:8080/annualFees/memberId/1
-name: add annual fee to member
+parentId: fld_2fde08a9ec734570ae7af81f14ad412b
+modified: 1669200458882
+created: 1668871682962
+url: http://{{ip}}:8080/parkingFees/boatId/1
+name: create parking fee
 description: ""
 method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    	"start": "2022-10-18",
-    	"end": "2023-10-18",
-    	"price": 100.50
-    }
+    		"start": "2022-11-01",
+    		"end": "2023-11-01",
+    		"price": 12.5
+    	}
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_ecc8368a7cbe4ed9bdf270819eff726a
 authentication: {}
-metaSortKey: -1668782798007
+metaSortKey: -1668871682962
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

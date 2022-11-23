@@ -1,17 +1,17 @@
-_id: req_0077194ffafa42ca93c9d009b22227fd
+_id: req_7336a78543e14761a2a6d646173c7543
 type: Request
 parentId: fld_88b08ac6d16c4cf5a86f6b237da5041c
-modified: 1669020974123
-created: 1668783979255
-url: http://{{ip}}:8080/employee
-name: employees
+modified: 1669021058469
+created: 1669020985048
+url: http://{{ip}}:8080/employee/1
+name: employees by id
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1668783979255
+metaSortKey: -1668783749288
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
